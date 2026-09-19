@@ -50,6 +50,3 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-cat .github/workflows/deploy.yml
-git add .github/workflows/deploy.yml
-git commit -m "Fix GitHub Pages deployment workflow"
