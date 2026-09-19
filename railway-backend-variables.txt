@@ -1,0 +1,10 @@
+RAILWAY BACKEND VARIABLES
+
+DATABASE_URL = injected by Railway PostgreSQL
+FRONTEND_ORIGIN = https://YOUR-FRONTEND-DOMAIN
+SMTP_HOST = smtp.gmail.com
+SMTP_PORT = 587
+SMTP_USERNAME = yournewsletter@gmail.com
+SMTP_PASSWORD = Google App Password (not your normal Gmail password)
+NEWSLETTER_FROM = Agora Demos <yournewsletter@gmail.com>
+ADMIN_KEY = long random secret

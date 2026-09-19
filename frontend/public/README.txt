@@ -1,0 +1,1 @@
+Put article hero images, logos, and other static assets here. The starter UI currently uses CSS-generated editorial graphics so it works immediately.
