@@ -105,11 +105,18 @@ function Layout({ children }) {
           {[["Markets","markets"],["Global Economy","global-economy"],["Interest Rates","interest-rates"],["Geopolitics","geopolitics"],["Options","options"],["Data & AI","data-ai"],["Sustainability","sustainability"],["Student Finance","student-finance"]].map(([label,slug]) => (
             <Link className="topic-link" key={slug} to={`/topic/${slug}`}>{label}</Link>
           ))}
-          <span className="date-chip">Sat, Sep 19, 2026 · 18°C</span>
+          <span className="date-chip">
+  {new Date().toLocaleDateString("en-US", {
+    weekday: "short",
+    month: "short",
+    day: "numeric",
+    year: "numeric",
+  })}{" "}
+</span>
         </div>
       </header>
       <main>{children}</main>
-      <footer id="contact" className="footer">
+     <footer id="contact" className="footer">
         <div className="footer-inner page-width">
           <div>
             <div className="brand-lockup footer-brand"><span className="brand-mark">✦</span><span><b>AGORA DEMOS</b><small>FINANCE · ECONOMICS · PSIR · QRM</small></span></div>
